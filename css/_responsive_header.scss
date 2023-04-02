@@ -1,18 +1,36 @@
-@media screen and (max-width:900px){
+
+@media screen and(max-width:1025px) {
     .container{
         header{
             .menu-container{
                 ul{
-                    flex-wrap: wrap;
-                    justify-content: center;
-                }
-                a{
-                    padding: 15px;
+                    width: 70%;
                 }
             }
-            .logo-container{
-                img{
-                    width: 200px;
+        }
+    }
+}
+
+@media screen and (max-width:900px){
+    .container{
+        header{
+            .header-container{
+                .logo-container{
+                    img{
+                        width: 150px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:750px) {
+    .container{
+        header{
+            .menu-container{
+                ul{
+                    width: 90%;
                 }
             }
         }
@@ -36,9 +54,56 @@
                     }
                 }
                 .logo-container{
-                    img{
-                        width: 150px;
+                    display: none;
+                }
+            }
+            
+            .menu-container{
+                .menu-header-container{
+                    display: block;
+                    .menu-btn{
+                        width: 35px;
+                        height: 35px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                        .menu-style{
+                            width: 100%;
+                            height: 6px;
+                            background: $white;
+                            border-radius: 50px;
+                        }
                     }
+                    .menu-container-dropdown{
+                        background: $dark_green;
+                        top: 215px;
+                        left: 0;
+                        position: absolute;
+                        padding-bottom: 20px;
+                        width: 100%;
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            text-align: center;
+                            width: 100%;
+                            li{
+                                display: block;
+                                a{
+                                    padding: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .menu-hidden{
+                        display: none;
+                    }
+                }
+                ul{
+                    display: none;
                 }
             }
         }
@@ -50,6 +115,23 @@
         header{
             .header-container{
                 .logo-container{
+                    display: none;
+                }
+            }
+            .menu-container{
+                ul{
+                    width:100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:515px) {
+    .container{
+        header{
+            .menu-container{
+                ul{
                     display: none;
                 }
             }

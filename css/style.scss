@@ -38,6 +38,10 @@ body{
     }
 }
 
+.hidden{
+    display: none;
+}
+
 @import "header";
 @import "index";
 @import "products";

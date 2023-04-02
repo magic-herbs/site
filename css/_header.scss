@@ -33,6 +33,7 @@
             .logo-container{
                 img{
                     margin-bottom: 5px;
+                    width: 200px;
                 }
                 p{
                     color: $white;
@@ -44,8 +45,13 @@
         }
         .menu-container{
             background: $dark_green;
+            padding: 20px;
+            // min-height: 20px;
+            .menu-header-container{
+                display: none;
+            }
             ul{
-                width: 70%;
+                width: 50%;
                 max-width: 1000px;
                 margin: auto;
                 display: flex;
@@ -58,7 +64,7 @@
                     // width: 100px;
                     a{
                         display: block;
-                        padding: 20px;
+                        padding: 5px;
                         // transition: background-color .2s ease-in-out 0ms;
                         &:hover{
                             color: $green;
