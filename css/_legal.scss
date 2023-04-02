@@ -1,0 +1,19 @@
+.container{
+    .legal-main{
+        width: 50%;
+        height: 600px;
+        margin: 20px auto;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 20px;
+        background: $light_gray;
+        // h1{
+        //     margin-bottom: 50px;
+        // }
+        // p{
+        //     margin-bottom: 30px;
+        // }
+    }
+}
