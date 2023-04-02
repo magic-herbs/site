@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
-    <title>Magic Herb - Compra y venta de articulos curiosos</title>
+    <title>Magic Herbs - Compra y venta de articulos curiosos</title>
 </head>
 <body>
     <div class="container">
@@ -27,20 +27,36 @@
             <div class="header-container">
                 <div class="title-container">
                     <div class="title">
-                        <a class="link" href="index.html"><h1>Magic Herb</h1></a>
+                        <a class="link" href="index.html"><h1>Magic Herbs</h1></a>
                         <a class="link" href="index.html"><p>Hacemos volar <span>Tus sueños</span></p></a>
                         <a class="link" href="index.html"><p><span>Hasta la luna</span></p></a>
                     </div>
                 </div>
                 <div class="logo-container">
-                    <img src="./img/MagicHerb.png" alt="Magic Herb Logo">
+                    <img src="./img/MagicHerb.png" alt="Magic Herbs Logo">
                 </div>
             </div>
             <div class="menu-container">
+                <div class="menu-header-container">
+                    <div class="menu-btn" id="menuBtn">
+                        <div class="menu-style"></div>
+                        <div class="menu-style"></div>
+                        <div class="menu-style"></div>
+                        <div class="menu-container-dropdown menu-hidden" id="menuList">
+                            <ul>
+                                <li><a class="selection selected" href="index.html">Inicio</a></li>
+                                <li><a class="selection" href="products.html">Productos</a></li>
+                                <li><a class="selection" href="traveling.html">Viajes y servicios</a></li>
+                                <li><a class="selection" href="#">Contacto</a></li>
+                                <li><a class="selection" href="legal.html">Aviso Legal</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <ul>
-                    <li><a class="selection" href="index.html">Inicio</a></li>
+                    <li><a class="selection selected" href="index.html">Inicio</a></li>
                     <li><a class="selection" href="products.html">Productos</a></li>
-                    <li><a class="selection selected" href="traveling.html">Viajes y servicios</a></li>
+                    <li><a class="selection" href="traveling.html">Viajes y servicios</a></li>
                     <li><a class="selection" href="#">Contacto</a></li>
                     <li><a class="selection" href="legal.html">Aviso Legal</a></li>
                 </ul>
@@ -77,5 +93,6 @@
     </div>
     <script src="./js/traveling.js"></script>
     <script src="./js/productList.js"></script>
+    <script src="./js/headerMenu.js"></script>
 </body>
 </html>
