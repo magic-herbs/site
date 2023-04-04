@@ -3,14 +3,15 @@
         .main-container{
             .cards-container{
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
                 flex-wrap: wrap;
                 .card{
                     padding: 20px;
                     width: 355px;
                     background: $light_gray;
                     border-radius: 5px;
-                    margin-bottom: 50px;
+                    margin: 20px;
+                    // margin-bottom: 50px;
                     .image-container{
                         margin-bottom: 40px;
                         img{
