@@ -265,7 +265,6 @@ body .container main {
 
 .container .legal-main {
   width: 50%;
-  height: 600px;
   margin: 20px auto;
   padding: 40px;
   display: flex;
@@ -273,6 +272,15 @@ body .container main {
   justify-content: space-between;
   border-radius: 20px;
   background: #DADADA;
+}
+.container .legal-main h1 {
+  margin-bottom: 50px;
+}
+.container .legal-main p {
+  margin-bottom: 20px;
+}
+.container .legal-main p:last-child {
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 1025px) {
@@ -433,6 +441,11 @@ body .container main {
   }
   .container .travel-main .travel-main-container .destiny-cards .destiny .image-container img {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container .legal-main {
+    width: 90%;
   }
 }
 @media screen and (max-width: 900px) {
