@@ -149,7 +149,7 @@ body .container main {
 
 .container main .main-container .cards-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .container main .main-container .cards-container .card {
@@ -157,7 +157,7 @@ body .container main {
   width: 355px;
   background: #DADADA;
   border-radius: 5px;
-  margin-bottom: 50px;
+  margin: 20px;
 }
 .container main .main-container .cards-container .card .image-container {
   margin-bottom: 40px;
