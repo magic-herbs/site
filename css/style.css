@@ -147,25 +147,26 @@ body .container main {
   font-weight: 700;
 }
 
-.container main .main-container .cards-container {
+.container .products-main .main-container .cards-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.container main .main-container .cards-container .card {
+.container .products-main .main-container .cards-container .card {
   padding: 20px;
   width: 355px;
   background: #DADADA;
   border-radius: 5px;
   margin: 20px;
 }
-.container main .main-container .cards-container .card .image-container {
+.container .products-main .main-container .cards-container .card .image-container {
   margin-bottom: 40px;
+  background: #B0B0B0;
 }
-.container main .main-container .cards-container .card .image-container img {
+.container .products-main .main-container .cards-container .card .image-container img {
   width: 100%;
 }
-.container main .main-container .cards-container .card .text-container .price {
+.container .products-main .main-container .cards-container .card .text-container .price {
   margin-bottom: 20px;
 }
 
