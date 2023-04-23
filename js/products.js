@@ -1,8 +1,4 @@
-// Por hacer
-
 const cardsContainer = document.getElementById("cardsContainer");
-
-let app = {};
 
 let products = (data) => {
     html = "";

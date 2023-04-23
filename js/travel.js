@@ -1,7 +1,5 @@
 const destinyCards = document.getElementById("destinyCards");
 
-let app = {};
-
 let travel = (data) => {
     html = "";
     for (let i = 0; i < data.length; i++) {
