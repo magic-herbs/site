@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="152x152" href="https://magic-herbs.github.io/site/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://magic-herbs.github.io/site/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://magic-herbs.github.io/site/favicon-16x16.png">
+    <link rel="manifest" href="https://magic-herbs.github.io/site/site.webmanifest">
+    <link rel="mask-icon" href="https://magic-herbs.github.io/site/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://magic-herbs.github.io/site/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://magic-herbs.github.io/site/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8618fd9b9.js" crossorigin="anonymous"></script>
+    <title>Magic Herbs - Compra y venta de articulos curiosos</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-container">
+                <div class="title-container">
+                    <div class="title">
+                        <a class="link" href="index.html"><h1>Magic Herbs</h1></a>
+                        <a class="link" href="index.html"><p>Hacemos volar <span>Tus sueños</span></p></a>
+                        <a class="link" href="index.html"><p><span>Hasta la luna</span></p></a>
+                    </div>
+                </div>
+                <div class="logo-container">
+                    <img src="./img/MagicHerb.png" alt="Magic Herbs Logo">
+                </div>
+            </div>
+            <div class="menu-container">
+                <div class="menu-header-container">
+                    <div class="menu-btn" id="menuBtn">
+                        <div class="menu-style"></div>
+                        <div class="menu-style"></div>
+                        <div class="menu-style"></div>
+                        <div class="menu-container-dropdown menu-hidden" id="menuList">
+                            <ul>
+                                <li><a class="selection" href="index.html">Inicio</a></li>
+                                <li><a class="selection" href="products.html">Productos</a></li>
+                                <li><a class="selection" href="travel.html">Viajes y servicios</a></li>
+                                <li><a class="selection selected" href="contact.html">Contacto</a></li>
+                                <li><a class="selection" href="legal.html">Aviso Legal</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li><a class="selection" href="index.html">Inicio</a></li>
+                    <li><a class="selection" href="products.html">Productos</a></li>
+                    <li><a class="selection" href="travel.html">Viajes y servicios</a></li>
+                    <li><a class="selection selected" href="contact.html">Contacto</a></li>
+                    <li><a class="selection" href="legal.html">Aviso Legal</a></li>
+                </ul>
+            </div>
+        </header>
+        <main class="product_page-main">
+            <div class="product_page-main-container main-container">
+                <div class="ref-image-container">
+                    <img src="./img/Human_brain.png" alt="Cerebro">
+                </div>
+                <div class="details-container">
+                    <h2 class="product-title">Cerebro Humano</h2>
+                    <p class="price">500,000.00 USD</p>
+                    <p class="description">No sabemos para qué lo necesitas... y tampoco nos importa Igual a nosotros también nos gusta quitarle cosas a los que si las necesitan aunque nosotros no.</p>
+                </div>
+                <div class="payment-container">
+                    <div class="payment-methods">
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <i class="fa-brands fa-cc-amex"></i>
+                        <i class="fa-brands fa-cc-diners-club"></i>
+                    </div>
+                    <form action="" class="payment-form">
+                        <select name="select">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                        <input type="submit" value="Ir a pagar" class="btn pay-btn">
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="team">
+                    <p>Proyecto llevado a cabo por:<br><a class="link" href="https://youtu.be/dQw4w9WgXcQ">iAndress</a>, <a class="link" href="https://github.com/magic-herbs/site">Waflittoo</a> & <a class="link" href="https://chromedino.com/">WedNiasirikii</a></p>
+                    <p>Mencion especial: <span class="link">Maxi(Panqueque)</span></p>
+                </div>
+                <div class="f-col">
+                    <p class="mention">Imagenes generadas por: <a class="link" href="https://leonardo.ai/">Leonardo.ai</a></p>
+                    <p class="mention">Algunos textos fueron generados por: <a class="link" href="https://chat.openai.com/chat">ChatGPT</a></p>
+                    <br>
+                </div>
+                <a href="legal.html" class="legal link" target="_blank">Aviso legal</a>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/headerMenu.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/productList.js"></script>
+</body>
+</html>
